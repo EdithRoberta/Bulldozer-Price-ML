@@ -1,9 +1,10 @@
 # Bulldozer-Price-ML
 
-The project is a machine learning regression problem.
+### The project is a machine learning regression problem.
 
 This notebook looks into develop a ML model that is able to predict the price of bulldozers based on its characteristics and previous sales. To build a model it will be used Python-based ML and Data Science libraries, such as Pandas, NumPy, Matplotlib and Scikit-Learn.
 
+## Project files:
 * **environment.yml** - has all the packages of the environment
 
 * **bulldozer-price-regression.ipynb** - contains the steps for building, evaluating and improving the regression model
@@ -15,8 +16,14 @@ This notebook looks into develop a ML model that is able to predict the price of
   * **TrainAndValid.zip &rarr; TrainAndValid.csv** - train & validation datasets
   * **test_predictions_submission.csv** - predictions of the trained model in the test data
 
+More informations about the Bulldozers dataset on Kaggle: https://www.kaggle.com/c/bluebook-for-bulldozers/overview
+
+Download whole data: https://www.kaggle.com/c/bluebook-for-bulldozers/data
+
+## Steps to install the environment:
 The environment is created and managed through Conda.
-Steps to activate the environment that has all the packages from environment.yml:
+
+**environment.yml** contains all the packages needed for this project.
 
 1. Open Anaconda Prompt
 2. Create a new project directory
